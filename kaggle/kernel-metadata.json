@@ -1,0 +1,18 @@
+{
+  "id": "hafididrissi/predicting-smartphone-addiction-validation-first",
+  "title": "Predicting Smartphone Addiction: Validation First",
+  "code_file": "predicting_smartphone_addiction_validation_first.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "jayjoshi37/smartphone-usage-and-addiction-prediction"
+  ],
+  "competition_sources": [
+    "playground-series-s6e8"
+  ],
+  "kernel_sources": []
+}
+

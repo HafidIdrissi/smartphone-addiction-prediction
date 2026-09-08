@@ -1,0 +1,36 @@
+# Credentials and local configuration
+.env
+.env.*
+kaggle.json
+access_token
+.kaggle/
+
+# Competition data and generated artifacts
+data/
+artifacts/
+checkpoints/
+models/
+*.pkl
+*.joblib
+*.pt
+*.bin
+*.npy
+*.npz
+
+# Submission files stay local unless a small, original example is reviewed
+submissions/*.csv
+submission*.csv
+
+# Python and notebook state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

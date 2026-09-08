@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If this repository supports your work, please cite it using this metadata."
+title: "Predicting Smartphone Addiction: Validation-First Tabular Modeling"
+type: software
+authors:
+  - family-names: Idrissi
+    given-names: Hafid
+year: 2026
+license: MIT
+repository-code: "https://github.com/HafidIdrissi/smartphone-addiction-prediction"
+keywords:
+  - machine learning
+  - tabular data
+  - Kaggle
+  - ROC AUC
+  - target encoding
+  - stacking
+
