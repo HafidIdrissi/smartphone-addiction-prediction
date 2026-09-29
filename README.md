@@ -43,6 +43,7 @@ experiments/
   v6_raw_highbin_xgboost.ipynb         controlled diversity experiment
   v7_oof_diversity.ipynb               RealMLP/CatBoost OOF audit
 docs/
+  notebook_guide.md                    guide to notebook roles, runtimes, and execution order
   technical_writeup.md                 detailed methodology and lessons
   experiment_log.md                    concise experiment history
   attribution.md                       source and license boundaries
@@ -59,7 +60,7 @@ submissions/
 2. Create a Kaggle API token.
 3. In Colab, create a secret named `KAGGLE_API_TOKEN` and enable notebook access.
 4. Select a T4 GPU for the XGBoost and neural experiments.
-5. Start with `notebooks/01_baseline.ipynb`, then run the later notebooks in order.
+5. Start with `notebooks/01_baseline.ipynb`, then run the later notebooks in order (refer to the [Notebook Guide](docs/notebook_guide.md) for roles, hardware expectations, and recommended execution flow).
 
 The notebooks install their own competition dependencies and download the data at
 runtime. Raw competition files, credentials, model checkpoints, and generated
